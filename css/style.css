@@ -55,7 +55,7 @@ top section style start
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/circle-design.svg");
+    background-image: url("./images/circle-design.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 420px;
@@ -248,7 +248,7 @@ footer>p{
        margin:70px auto 20px auto;
    }
    .top-sec-right{
-    background-image: url("/images/circle-design.svg");
+    background-image: url("./images/circle-design.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 375px;
@@ -285,7 +285,7 @@ footer>p{
         max-width: 80%;
     }
     .top-sec-right{
-        background-image: url("/images/circle-design.svg");
+        background-image: url("./images/circle-design.svg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 360px;
