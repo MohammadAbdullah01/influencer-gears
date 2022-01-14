@@ -1,4 +1,120 @@
-/* common styes  */
+/* common styles  */
+body{
+    margin:0;
+    padding:0;
+}
 *{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1050px;
+    margin:0 auto;
+}
+
+/* header style  */
+nav h2{
+    font-size: 24px;
+    color:#3A3A3A;
+    font-weight: 700;
+}
+
+/* top section style start  */
+.top-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+.top-title{
+    font-size: 52px;
+    color:#3A3A3A;
+    margin-bottom: 0;
+}
+.top-article{
+    font-weight: 600;
+    font-size: 16px;
+    color:#3A3A3A;
+    line-height:1.6;
+    margin-top: 5px;
+}
+.top-sec-left{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.top-sec-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/Circle-design.svg");
+    background-repeat: no-repeat;
+}
+.top-sec-right img{
+    transition: all 0.4s;
+}
+.top-sec-right img:hover{
+    transform: scale(1.1);
+}
+.button-style{
+    background-color: #E02C6D;
+    font-size: 18px;
+    border-radius: 41px;
+    color:white;
+    padding:5px 17px;
+    border:2px solid transparent;
+    transition: all 0.3s;
+
+
+}
+.button-style:hover{
+    transform: translateX(10px);
+    background-color: white;
+    border:2px solid #E02C6D; 
+    color:black;
+
+}
+.arrow-icon{
+    margin-left: 5px;
+}
+
+/* collection section start  */
+.collection{
+    margin-top:110px;
+}
+.collection-title{
+    color:#3A3A3A;
+    font-size: 28px;
+    text-align: center;
+    margin:50px 0;
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.collection-item{
+    padding:10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-item img{
+    width: 100%;
+}
+.collection-item>p{
+    margin:0;
+    font-size: 14px;
+    font-weight: 500;
+    color:#3A3A3A;
+}
+.collection-item h2{
+    color:#18191F;
+}
+.collection-item h3{
+    color: rgba(0, 0, 0, 0.87);
+}
+.collection-item h2,h3{
+    margin: 12px 0;
+}
+.fas{
+    color:orange;
 }
