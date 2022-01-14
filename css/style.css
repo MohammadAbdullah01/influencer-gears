@@ -51,15 +51,6 @@ top section style start
     align-items: center;
 
 }
-.top-sec-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("./images/circle-design.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 420px;
-}
 .top-sec-right img{
     width: 90%;
     transition: all 0.4s;
@@ -247,12 +238,6 @@ footer>p{
        max-width: 90%;
        margin:70px auto 20px auto;
    }
-   .top-sec-right{
-    background-image: url("./images/circle-design.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 375px;
-}
    .collection-container{
        grid-template-columns: repeat(2, 1fr);
        justify-items: center;
@@ -283,12 +268,6 @@ footer>p{
     }
     .top-sec-right{
         max-width: 80%;
-    }
-    .top-sec-right{
-        background-image: url("./images/circle-design.svg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 360px;
     }
     .top-sec-right img{
         max-width:90%;
