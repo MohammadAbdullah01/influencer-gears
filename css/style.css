@@ -221,6 +221,7 @@ footer>p{
 @media only screen and (max-width:992px) {
    .top-section{
        grid-template-columns: 1fr;
+       justify-items: center;
    }
    .top-sec-left{
        text-align: center;
@@ -232,6 +233,7 @@ footer>p{
    }
    .collection-container{
        grid-template-columns: repeat(2, 1fr);
+       justify-items: center;
    }
    
 
@@ -251,6 +253,7 @@ footer>p{
     }
     .collection-container{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .see-more-container a{
         text-decoration: none;
@@ -262,6 +265,7 @@ footer>p{
     .premium-container{
         grid-template-columns: 1fr;
         text-align: center;
+        justify-items: center;
     }
 }
 
